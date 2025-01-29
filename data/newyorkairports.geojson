@@ -1,0 +1,138 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Newark Liberty International Airport",
+          "airport-code": "EWR",
+          "marker-color": "#0033a0",
+          "marker-size": "medium",
+          "marker-symbol": "airport",
+          "largest-airline": "United Airlines"
+        },
+        "geometry": {
+          "coordinates": [
+            -74.17490679515868,
+            40.691210693946005
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "John F. Kennedy International Airport",
+          "airport-code": "JFK",
+          "marker-color": "#c01933",
+          "marker-size": "medium",
+          "marker-symbol": "airport",
+          "largest-airline": "Delta Air Lines"
+        },
+        "geometry": {
+          "coordinates": [
+            -73.7842589489074,
+            40.646122260086486
+          ],
+          "type": "Point"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Stewart International Airport",
+          "airport-code": "SWF",
+          "marker-color": "#ff9801",
+          "marker-size": "small",
+          "marker-symbol": "airport",
+          "largest-airline": "Allegiant Air"
+        },
+        "geometry": {
+          "coordinates": [
+            -74.10100558793647,
+            41.50253139513973
+          ],
+          "type": "Point"
+        },
+        "id": 2
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Long Island MacArthur Airport",
+          "airport-code": "ISP",
+          "marker-color": "#1e4bc3",
+          "marker-size": "small",
+          "marker-symbol": "airport",
+          "largest-airline": "Southwest Airlines"
+        },
+        "geometry": {
+          "coordinates": [
+            -73.09805311311709,
+            40.7950803613175
+          ],
+          "type": "Point"
+        },
+        "id": 3
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Trenton-Mercer Airport",
+          "airport-code": "TTN",
+          "marker-color": "#248168",
+          "marker-size": "small",
+          "marker-symbol": "airport",
+          "largest-airline": "Frontier Airlines"
+        },
+        "geometry": {
+          "coordinates": [
+            -74.8137867747845,
+            40.27653155702424
+          ],
+          "type": "Point"
+        },
+        "id": 4
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "LaGuardia Airport",
+          "airport-code": "LGA",
+          "marker-color": "#c01933",
+          "marker-size": "medium",
+          "marker-symbol": "airport",
+          "largest-airline": "Delta Air Lines"
+        },
+        "geometry": {
+          "coordinates": [
+            -73.87299981389287,
+            40.77452982244424
+          ],
+          "type": "Point"
+        },
+        "id": 5
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Westchester County Airport",
+          "airport-code": "HPN",
+          "marker-color": "#00205b",
+          "marker-size": "small",
+          "marker-symbol": "airport",
+          "largest-airline": "JetBlue Airways"
+        },
+        "geometry": {
+          "coordinates": [
+            -73.70877603832163,
+            41.06770126771656
+          ],
+          "type": "Point"
+        },
+        "id": 6
+      }
+    ]
+  }
