@@ -1,5 +1,5 @@
 //------
-// LAB 2
+// Lab 2
 //------
 
 mapboxgl.accessToken = "pk.eyJ1Ijoic3RhbmZvcmRjaGFuZyIsImEiOiJjbTVvZHBxOHUwa3p2Mmxwbm90N2I0MzZqIn0.JfQLnEhITEAZl2kHoQP7rA";
@@ -15,9 +15,9 @@ const map = new mapboxgl.Map({
 
 map.on("load", () => {
 
-    // -----------------
+    //-----------------
     // FIRST DATA LAYER
-    // -----------------
+    //-----------------
 
     // Add GeoJSON data source of flight routes
     map.addSource("flight-routes", {
@@ -138,9 +138,9 @@ map.on("load", () => {
         }
     });
 
-    // ----------------
+    //------------------
     // SECOND DATA LAYER
-    // ----------------
+    //------------------
 
     // Add GeoJSON data source from Lab 1 (data of airpots around NYC)
     map.addSource("airports-data", {
@@ -164,7 +164,7 @@ map.on("load", () => {
 })
 
 //------
-// LAB 1
+// Lab 1
 //------
 
 // Button and text elements
