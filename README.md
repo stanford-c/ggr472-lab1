@@ -1,9 +1,10 @@
-# GGR472H1 Lab 1
-This repository contains code for a webpage with information of airports in the New York metropolitan area for Lab 1 of GGR472H1.
+# GGR472H1 Labs 1 and 2
+This repository contains code for a webpage with information of airports serving the New York metropolitan area for Labs 1 and 2 of GGR472H1.
 
 Link to webpage: https://stanford-c.github.io/ggr472-lab1/
 
 ## Key Contents
-- `data/newyorkairports.geojson`: Point locations of commercial airports serving the New York metropolitan area
 - `index.html`: HTML file of home page
-- `script.js`: JavaScript file for interactive elements on home page
+- `destinations.html`: HTML file of web map and dependencies
+- `script.js`: JavaScript file for interactive elements on home page and web map
+- `style.css`: CSS file to position the web map
