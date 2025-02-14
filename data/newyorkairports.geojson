@@ -63,7 +63,7 @@
         "properties": {
           "name": "Long Island MacArthur Airport",
           "airport-code": "ISP",
-          "marker-color": "#1e4bc3",
+          "marker-color": "#f9b612",
           "marker-size": "small",
           "marker-symbol": "airport",
           "largest-airline": "Southwest Airlines"
@@ -101,7 +101,7 @@
         "properties": {
           "name": "LaGuardia Airport",
           "airport-code": "LGA",
-          "marker-color": "#c01933",
+          "marker-color": "#36495A",
           "marker-size": "medium",
           "marker-symbol": "airport",
           "largest-airline": "Delta Air Lines"
