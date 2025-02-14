@@ -160,7 +160,6 @@ map.on("load", () => {
         "circle-stroke-width": 3
         }
     });
-
 });
 
 //------
@@ -206,19 +205,19 @@ noJFKButton.addEventListener("click", () => {
 yesEWRButton.addEventListener("click", () => {
     countEWRYes++;
     yesEWRCountDisplay.innerHTML = countEWRYes;
-  });
+});
   
 noEWRButton.addEventListener("click", () => {
     countEWRNo++;
     noEWRCountDisplay.innerHTML = countEWRNo;
-  });
+});
 
 yesLGAButton.addEventListener("click", () => {
     countLGAYes++;
     yesLGACountDisplay.innerHTML = countLGAYes;
-  });
+});
   
 noLGAButton.addEventListener("click", () => {
     countLGANo++;
     noLGACountDisplay.innerHTML = countLGANo;
-  });
+});
