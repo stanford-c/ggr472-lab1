@@ -1,4 +1,4 @@
-<!-- Lab 2 -->
+<!-- Labs 2 and 3 -->
 
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
@@ -67,32 +67,61 @@
         </div>
     </nav>
 
+
     <!-- Upper content container -->
     <div class="container text-center">
         <!-- Heading -->
         <div class="row">
-            <h1><b>New York City is connected to the world</b></h1>
-            <p>Zoom out to explore all the destinations served by airports in the New York metropolitan area<p>
+            <h2><b>New York City is connected to the world</b></h2>
+            <p>Explore all the routes served by New York metropolitan area airports. Click on an airport for more details.</p>
+
+            <!-- Dropdown selection to filter destinations by origin airport -->
+            <form>
+                <fieldset id="airportDropdown">
+                    <label class="option-label">Filter routes by airport 👉</label>
+                    <select id="airport" name="airport">
+                        <option value="" disabled selected>Select airport...</option>
+                        <option value="JFK">John F. Kennedy International Airport</option>
+                        <option value="EWR">Newark Liberty International Airport</option>
+                        <option value="LGA">LaGuardia Airport</option>
+                        <option value="ISP">Long Island MacArthur Airport</option>
+                        <option value="SWF">Stewart International Airport</option>
+                        <option value="TTN">Trenton-Mercer Airport</option>
+                        <option value="HPN">Westchester County Airport</option>
+                        <option value="All">Show all</option>
+                    </select>
+                </fieldset>
+            </form>
         </div>
     </div>
 
-    <!-- Map container -->
-    <div id="lab2-map" class="map-container"></div>
 
-    <script src="script-lab2.js"></script>
+    <!-- Map container -->
+    <div id="lab3-map" class="map-container"></div>
+
+
+    <!-- Legend -->
+    <div id='legend' class='legend'>
+        <h4>Airport</h4>
+    </div>
+
+    <!-- Toggle visibility of legend -->
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" value="" id="legendcheck" checked>
+        <label class="form-check-label" for="legendcheck">Show legend</label>
+    </div>
+
+    <!-- Lab 3 script reference -->
+    <script src="script-lab3.js"></script>
 
     <!-- Lower content container -->
     <div class="container text-center">
-        <!-- Explain map -->
-        <div class="row">
-            <p>Flight routes are coloured based on their origin airport.</p>
-            <br>
-            <p>JFK: Red, EWR: Blue, LGA: Grey, ISP: Yellow, SWF: Orange, TTN: Green, HPN: Dark blue</p>
-        </div>
+
         <!-- Credits -->
         <div class="row">
             <p>Data source: <a href="https://openflights.org/"><b>OpenFlights.org</b></a></p>
         </div>
+
     </div>
 
 </body>
