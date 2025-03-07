@@ -56,9 +56,9 @@ map.on("load", () => {
         paint: {
         "line-width": [
             "interpolate", ["linear"], ["zoom"], // Adjust width according to zoom
-            0, 0.3, // Thinner lines zoomed out
-            8, 0.6,
-            10, 1.5, // Thicker lines zoomed in
+            0, 0.5, // Thinner lines zoomed out
+            8, 1,
+            10, 2, // Thicker lines zoomed in
         ],
         "line-color": [
             "match",
